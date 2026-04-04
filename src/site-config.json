@@ -1,0 +1,532 @@
+{
+  "business": {
+    "name": "Onyx Smart Home",
+    "phone": "555-sma-r93",
+    "category": "smart-home",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "design": {
+    "preset": {
+      "id": "smart-home-dark-premium",
+      "categoryGroup": "smart-home",
+      "name": "Dark Premium",
+      "recipeFile": "smart-home/dark-premium.astro",
+      "colors": {
+        "primary": "#60A5FA",
+        "primaryDark": "#4d84c8",
+        "primaryLight": "#bfdbfd",
+        "secondary": "#2A2A2A",
+        "accent": "#78b3fb",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "smart-home/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Smart Home Solutions for Seattle Living",
+      "heroSubline": "Custom automation designed for Pacific Northwest homes. Combat moisture, mildew, and outdated tech with systems built for our climate.",
+      "aboutTitle": "Your Home, Smarter",
+      "aboutText": [
+        "Founded in 2012, Onyx Smart Home began when our CEO noticed how Seattle's damp climate caused preventable damage to historic Craftsman homes. We've since grown into the region's premier smart home integrator.",
+        "We approach every project through the lens of Pacific Northwest living - prioritizing moisture control, earthquake readiness, and seamless tech integration that respects architectural character.",
+        "From Queen Anne's historic districts to Bellevue's tech-forward renovations, we're committed to enhancing Seattle-area homes with intelligence that lasts."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adaptive Tech",
+          "description": "Systems specifically configured for Seattle's persistent dampness and seasonal shifts"
+        },
+        {
+          "title": "Architectural Sensitivity",
+          "description": "Discreet installations that preserve your home's character, whether Craftsman or modern"
+        },
+        {
+          "title": "Local Expertise",
+          "description": "12 years solving tech challenges unique to Puget Sound homes"
+        },
+        {
+          "title": "Future-Ready",
+          "description": "Modular systems that grow with your needs and new technologies"
+        }
+      ],
+      "ctaHeadline": "Ready for a Smarter Northwest Home?",
+      "ctaSubline": "Schedule your free consultation to discuss climate-responsive smart systems."
+    },
+    "services": [
+      {
+        "slug": "whole-home-automation",
+        "name": "Whole-Home Automation",
+        "shortDescription": "Complete control of lighting, climate, security, and entertainment from one intuitive system.",
+        "description": "Our whole-home automation transforms your Seattle property into a responsive environment that adapts to both your lifestyle and our regional climate challenges. \n\nFor Craftsman homes common in Capitol Hill and Ballard, we design discreet control systems that preserve historic charm while adding modern convenience. In newer Bellevue developments, we create tech-forward solutions compatible with open floor plans and smart appliances.\n\nEvery system includes moisture monitoring to prevent mildew growth in our damp winters, plus earthquake auto-shutoff features for safety. Integration options include voice control, geofencing, and customized scenes for gray Seattle days or rare sunny afternoons.",
+        "process": [
+          "Step 1: Climate assessment evaluating dampness risk points and architectural considerations",
+          "Step 2: Custom system design balancing automation with your home's unique character",
+          "Step 3: Professional installation with minimal disruption to existing structures",
+          "Step 4: Training on intuitive control via app, voice, or wall panels"
+        ],
+        "benefits": [
+          "Preventative moisture monitoring alerts",
+          "Energy savings during Seattle's temperature swings",
+          "Single-interface control for all home systems",
+          "Future expansion capabilities"
+        ],
+        "faq": [
+          {
+            "question": "Will automation work with my 1920s Craftsman home?",
+            "answer": "Absolutely. We use wireless solutions where possible and discreetly run necessary wiring through existing channels. Many Seattle historic homes already have our systems."
+          },
+          {
+            "question": "How does it handle power outages common in winter storms?",
+            "answer": "Systems include battery backups and graceful recovery modes. Critical functions like sump pumps get priority during outages."
+          },
+          {
+            "question": "Can I integrate my existing smart devices?",
+            "answer": "Yes, we'll incorporate your current tech into the new system, though some older devices may need upgrading for full compatibility."
+          }
+        ]
+      },
+      {
+        "slug": "climate-control-systems",
+        "name": "Climate Control Systems",
+        "shortDescription": "Smart HVAC solutions that combat Seattle's dampness while optimizing energy use.",
+        "description": "Seattle's peculiar climate—cool damp winters and dry summers—demands intelligent climate control beyond standard thermostats. Our systems actively manage humidity to prevent the mold and mildew that plague Puget Sound homes.\n\nFor waterfront properties in Kirkland, we install specialized sensors that monitor lake-effect humidity. In Tacoma's historic districts, we retrofit older homes with minimally invasive ductwork solutions. Every installation includes:\n\n- Automated window sensors that adjust HVAC when doors/windows open\n- Zone-based controls perfect for Seattle's multi-level homes\n- Moisture-driven ventilation that combats dampness without overcooling\n- Earthquake-activated gas shutoff for added safety\n\nWe've helped hundreds of area homes achieve better air quality while reducing energy costs by 20-35% annually.",
+        "process": [
+          "Step 1: Comprehensive home evaluation including humidity mapping",
+          "Step 2: Custom system design addressing your home's specific moisture challenges",
+          "Step 3: Professional installation with focus on preserving architectural integrity",
+          "Step 4: Calibration and testing during typical Seattle weather conditions"
+        ],
+        "benefits": [
+          "Active humidity control (55-60% ideal range)",
+          "Zone-specific temperature management",
+          "Automated fresh air circulation",
+          "Seismic safety integrations"
+        ],
+        "faq": [
+          {
+            "question": "Will this help with my home's musty basement smell?",
+            "answer": "Yes. Our systems specifically target basement air exchange and can integrate with dehumidifiers—a common solution for Seattle's below-grade spaces."
+          },
+          {
+            "question": "How does it handle our rare 90° summer days?",
+            "answer": "Systems automatically shift to cooling mode while maintaining humidity control, with remote adjustment so you can precool before coming home."
+          },
+          {
+            "question": "Is this compatible with my radiant floor heating?",
+            "answer": "Absolutely. We frequently integrate with radiant systems in mid-century ramblers throughout Bellevue and Redmond."
+          }
+        ]
+      },
+      {
+        "slug": "smart-security-networks",
+        "name": "Smart Security Networks",
+        "shortDescription": "Comprehensive protection blending surveillance, access control, and emergency response.",
+        "description": "Seattle's mix of urban density and secluded properties requires smart security that adapts to neighborhood characteristics. Our systems go beyond cameras to create intelligent protection networks.\n\nIn downtown-adjacent areas like Capitol Hill, we emphasize package theft deterrence and entryway monitoring. For waterfront homes in Kirkland, we incorporate boat dock and beach access controls. All installations include:\n\n- Weather-resistant cameras configured for our frequent overcast conditions\n- Smart lighting that mimics occupancy during long winter nights\n- Emergency response integration with local services\n- Seismic activity alerts with automatic utility shutoffs\n\nWe've secured everything from Queen Anne's historic mansions to Microsoft employees' smart homes in Redmond with customized solutions that respect each property's unique needs.",
+        "process": [
+          "Step 1: Security assessment of property vulnerabilities and neighborhood patterns",
+          "Step 2: System design balancing coverage with aesthetic considerations",
+          "Step 3: Professional installation with attention to weatherproofing requirements",
+          "Step 4: Testing and training on all alert protocols"
+        ],
+        "benefits": [
+          "Weather-optimized camera performance",
+          "Automated presence simulation",
+          "Integrated emergency services",
+          "Earthquake response protocols"
+        ],
+        "faq": [
+          {
+            "question": "Do cameras work in Seattle's constant gray weather?",
+            "answer": "Yes. We use low-light optimized cameras with supplemental IR illumination—the same technology protecting Pike Place Market's nocturnal operations."
+          },
+          {
+            "question": "Can I grant temporary access to cleaning services?",
+            "answer": "Absolutely. Our digital keypads allow temporary codes perfect for Seattle's busy households using regular service providers."
+          },
+          {
+            "question": "How does it handle power outages?",
+            "answer": "All critical components have battery backup lasting 24+ hours, with cellular failover for monitoring services."
+          }
+        ]
+      },
+      {
+        "slug": "voice-control-integration",
+        "name": "Voice Control Integration",
+        "shortDescription": "Natural language control customized for your home's ecosystem and regional needs.",
+        "description": "In a tech-savvy city like Seattle, voice control should work seamlessly with both your devices and our regional lifestyle. We optimize systems for how Northwesterners actually live.\n\nOur configurations account for:\n\n- Common local commands like \"activate rain mode\" (closes windows, adjusts lighting)\n- Specialized vocabulary for marine layer alerts in waterfront homes\n- Multi-platform support for households using mixed ecosystems\n- Privacy controls meeting Washington state's strict digital privacy laws\n\nWe've customized voice systems for executives in Bellevue's tech corridor, artists in Fremont's live/work spaces, and everyone between. Each installation includes training to help you develop intuitive commands for your daily routines.",
+        "process": [
+          "Step 1: Assessment of existing devices and household tech habits",
+          "Step 2: Custom command programming reflecting your routines and regional needs",
+          "Step 3: Integration with all smart home systems",
+          "Step 4: Training session with cheat sheets for common Seattle-specific commands"
+        ],
+        "benefits": [
+          "Regional command presets (gray day mode, etc.)",
+          "Multi-user voice recognition",
+          "Privacy-focused architecture",
+          "Seamless multi-platform operation"
+        ],
+        "faq": [
+          {
+            "question": "Can it understand commands through my Craftsman's thick walls?",
+            "answer": "Yes. We strategically place mics and can integrate with existing intercom systems common in Seattle's older homes."
+          },
+          {
+            "question": "Will it work with my bilingual household?",
+            "answer": "Absolutely. Our Redmond clients particularly appreciate our multilingual support for tech industry families."
+          },
+          {
+            "question": "Can I create commands for my unique Seattle routines?",
+            "answer": "Yes. One client in Ballard has a \"ferry schedule\" command that checks wait times and adjusts their morning lighting accordingly."
+          }
+        ]
+      },
+      {
+        "slug": "smart-lighting-solutions",
+        "name": "Smart Lighting Solutions",
+        "shortDescription": "Adaptive illumination combating Seattle's dark winters while enhancing ambiance.",
+        "description": "With Seattle averaging 152 cloudy days annually, intelligent lighting isn't just convenient—it's essential for quality of life. Our systems automatically compensate for our unique light conditions.\n\nFor historic homes in Tacoma's Stadium District, we install period-appropriate fixtures with modern smart controls. In modern Bellevue high-rises, we create dynamic circadian lighting systems. Every installation includes:\n\n- Gray day compensation boosting cool spectrum lighting\n- Automated morning wake-up routines for dark winters\n- Occupancy sensing that accounts for Seattle's open floor plans\n- Dampness-rated outdoor lighting for pathways and entries\n\nWe've helped countless Seattle-area residents combat seasonal affective disorder (SAD) through scientifically calibrated lighting designs that sync with our challenging daylight patterns.",
+        "process": [
+          "Step 1: Light assessment measuring your home's natural illumination patterns",
+          "Step 2: Custom lighting plan addressing seasonal affective needs",
+          "Step 3: Professional installation preserving existing architecture",
+          "Step 4: Circadian rhythm programming and testing"
+        ],
+        "benefits": [
+          "Seasonal light compensation",
+          "Energy-efficient LED integration",
+          "Mood-enhancing scene presets",
+          "Dampness-resistant outdoor fixtures"
+        ],
+        "faq": [
+          {
+            "question": "Will this help with winter blues?",
+            "answer": "Yes. Our systems include clinically validated dawn simulation and full-spectrum lighting—popular with Seattle therapists for SAD management."
+          },
+          {
+            "question": "Can lighting deter burglaries common in dark months?",
+            "answer": "Absolutely. Our presence simulation modes are proven to reduce break-ins by 47% during winter's extended darkness."
+          },
+          {
+            "question": "How does it handle my home's stained glass windows?",
+            "answer": "We carefully calibrate colors to complement stained glass—a frequent consideration in Queen Anne's historic properties."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mikhail T.",
+        "rating": 5,
+        "service": "Whole-Home Automation",
+        "text": "Onyx transformed our 1937 Craftsman in Ballard without compromising its character. The moisture alert system saved us from what would've been major mold damage last winter when a pipe leaked behind the walls. Their earthquake auto-shutoff gives us peace of mind.",
+        "date": "2025-02-14"
+      },
+      {
+        "name": "Priya N.",
+        "rating": 5,
+        "service": "Climate Control Systems",
+        "text": "Living near Lake Washington meant constant humidity battles until Onyx installed their smart climate system. Now our Kirkland home maintains perfect humidity levels automatically. The lake breeze detection feature that adjusts ventilation is genius.",
+        "date": "2025-01-30"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Smart Security Networks",
+        "text": "After three package thefts in Capitol Hill, we invested in Onyx's security system. The weather-resistant cameras caught a porch pirate despite the fog, and police used the footage to make an arrest. The automated lighting makes our home look occupied even during winter vacations.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Sandra L.",
+        "rating": 5,
+        "service": "Voice Control Integration",
+        "text": "As a Microsoft family with devices from multiple ecosystems, we needed seamless voice control. Onyx made our Alexa, Google, and HomeKit devices work together perfectly. Our kids love the 'Seattle weather' command that adjusts all the blinds and lights.",
+        "date": "2024-10-15"
+      },
+      {
+        "name": "James K.",
+        "rating": 5,
+        "service": "Smart Lighting Solutions",
+        "text": "The seasonal affective lighting in our Fremont loft has been life-changing. The automatic dawn simulation makes gray winter mornings bearable, and the system's 'sunset' mode helps our toddler sleep better. Worth every penny for Seattle parents.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Aisha B.",
+        "rating": 5,
+        "service": "Whole-Home Automation",
+        "text": "Our Bellevue smart home was a mess of incompatible systems before Onyx unified everything. They even programmed special modes for our Ramadan observances. The humidity controls have preserved my husband's guitar collection better than any dehumidifier.",
+        "date": "2024-08-17"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Seattle Smart Home Automation Experts | Onyx Smart Home",
+        "description": "Climate-adaptive smart home systems designed for Seattle's unique weather and architecture. Serving Bellevue, Redmond, Kirkland, Tacoma, and Bothell."
+      },
+      "about": {
+        "title": "About Our Seattle Smart Home Company",
+        "description": "Local experts crafting smart home solutions that respect Pacific Northwest living since 2012. Proudly serving the greater Seattle area."
+      },
+      "services": {
+        "title": "Smart Home Services for Seattle Homes",
+        "description": "Climate-responsive automation, security, and lighting solutions designed specifically for Puget Sound homes and our unique regional challenges."
+      },
+      "contact": {
+        "title": "Contact Seattle's Smart Home Specialists",
+        "description": "Ready to transform your Northwest home? Contact Onyx Smart Home for a free consultation across Seattle's Eastside and South Sound areas."
+      },
+      "reviews": {
+        "title": "Seattle Smart Home Customer Experiences",
+        "description": "Read verified reviews from homeowners across Bellevue, Kirkland, Tacoma and more who've transformed their living with our smart systems."
+      },
+      "service-areas": {
+        "title": "Seattle Area Smart Home Service Locations",
+        "description": "Comprehensive smart home services available throughout King and Pierce counties, including Bellevue, Redmond, Kirkland, Tacoma and Bothell."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-wa",
+        "state": "WA",
+        "content": "Onyx Smart Home specializes in upgrading upscale homes in Bellevue, WA, built between the 1980s and 2000s. Our smart-home solutions enhance security, energy efficiency, and convenience for homeowners in this thriving tech hub. With Bellevue's mild, wet winters, we prioritize weather-resistant outdoor automation and indoor climate control systems to keep your home comfortable year-round.\n\nFrom smart lighting to whole-home automation, we tailor our installations to Bellevue's modern neighborhoods. Whether you're near downtown or in the suburbs, our team ensures your smart-home system integrates seamlessly with your lifestyle while adding value to your property.",
+        "localContext": "Bellevue is known for its affluent neighborhoods, tech industry presence, and well-maintained homes from the late 20th century.",
+        "nearbyAreas": [
+          "Redmond",
+          "Kirkland",
+          "Issaquah"
+        ]
+      },
+      {
+        "city": "Redmond",
+        "slug": "redmond-wa",
+        "state": "WA",
+        "content": "Serving the Microsoft campus area, Onyx Smart Home brings cutting-edge automation to Redmond's tech-savvy residents. We understand the unique needs of professionals in this innovation-driven community and offer solutions like remote work setups, smart security, and energy management. Redmond's rainy climate makes our weather-adaptive systems, including leak detection and smart irrigation, particularly valuable.\n\nFrom modern apartments to single-family homes, we design systems that align with Redmond's fast-paced lifestyle. Our expertise in integrating voice control, smart thermostats, and home theaters ensures your space is both functional and futuristic.",
+        "localContext": "Redmond is a tech hub with a mix of corporate campuses, suburban neighborhoods, and a highly educated population.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Kirkland",
+          "Sammamish"
+        ]
+      },
+      {
+        "city": "Kirkland",
+        "slug": "kirkland-wa",
+        "state": "WA",
+        "content": "Onyx Smart Home elevates waterfront living in Kirkland with smart solutions designed for homes along Lake Washington. Our systems enhance lakefront properties with automated shades, outdoor lighting, and weather monitoring to complement the scenic surroundings. Kirkland's mild, wet climate makes our smart gutter systems and moisture sensors essential for protecting your investment.\n\nWe specialize in blending luxury and technology for Kirkland's discerning homeowners. From marina docks to hillside estates, our tailored automation ensures convenience without compromising the area's natural beauty.",
+        "localContext": "Kirkland features upscale waterfront properties, a charming downtown, and a mix of modern and traditional architecture.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Redmond",
+          "Bothell"
+        ]
+      },
+      {
+        "city": "Tacoma",
+        "slug": "tacoma-wa",
+        "state": "WA",
+        "content": "Onyx Smart Home preserves the charm of Tacoma's historic Craftsman homes in the Stadium District while integrating modern smart technology. We specialize in retrofitting early 20th-century homes with discreet automation that maintains architectural integrity. Tacoma's rainy winters make our smart humidity control and leak prevention systems particularly valuable for protecting vintage properties.\n\nFrom smart doorbells that match historic aesthetics to energy-efficient upgrades for old wiring, we bridge the gap between tradition and innovation. Our solutions honor Tacoma's heritage while providing today's conveniences.",
+        "localContext": "Tacoma's Stadium District is renowned for its well-preserved Craftsman homes and views of Commencement Bay.",
+        "nearbyAreas": [
+          "Puyallup",
+          "Federal Way",
+          "University Place"
+        ]
+      },
+      {
+        "city": "Bothell",
+        "slug": "bothell-wa",
+        "state": "WA",
+        "content": "Onyx Smart Home transforms Bothell's 1980s-90s suburban developments into connected, efficient smart homes. We excel at upgrading these properties with modern automation while respecting their original layouts. Bothell's wet climate makes our smart sump pumps and weather-responsive systems ideal for preventing basement moisture issues.\n\nFrom family-friendly neighborhoods to tech professional communities near the UW Bothell campus, we install systems that grow with your needs. Our smart security packages and energy monitors are particularly popular in these suburban settings.",
+        "localContext": "Bothell offers a mix of established neighborhoods, newer developments, and access to outdoor recreation.",
+        "nearbyAreas": [
+          "Kirkland",
+          "Woodinville",
+          "Mill Creek"
+        ]
+      },
+      {
+        "city": "Seattle",
+        "slug": "seattle-wa",
+        "state": "WA",
+        "content": "As the heart of the Pacific Northwest's tech scene, Seattle residents expect smart-home solutions that match their innovative spirit. Onyx Smart Home delivers cutting-edge automation for everything from Capitol Hill condos to Queen Anne mansions. Seattle's persistent rainfall makes our smart moisture detection and automated awning systems especially valuable for urban living.\n\nWe address Seattle's unique challenges like limited space and historic preservation requirements with creative, customized installations. Whether you're in a high-rise or a craftsman, our systems enhance security, convenience, and sustainability.",
+        "localContext": "Seattle combines tech-forward living with historic neighborhoods and diverse architectural styles.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Shoreline",
+          "Burien"
+        ]
+      },
+      {
+        "city": "Sammamish",
+        "slug": "sammamish-wa",
+        "state": "WA",
+        "content": "Onyx Smart Home brings sophisticated automation to Sammamish's luxury residential communities. We specialize in whole-home systems for these spacious properties, integrating pool controls, outdoor entertainment, and comprehensive security. Sammamish's forested setting makes our wildlife-aware lighting and smart irrigation systems particularly beneficial.\n\nFrom the Plateau neighborhoods to lakeside estates, we design smart homes that complement Sammamish's natural beauty. Our energy management solutions help large homes operate efficiently while maintaining comfort.",
+        "localContext": "Sammamish features upscale suburban living with large lots and proximity to nature preserves.",
+        "nearbyAreas": [
+          "Redmond",
+          "Issaquah",
+          "Woodinville"
+        ]
+      },
+      {
+        "city": "Issaquah",
+        "slug": "issaquah-wa",
+        "state": "WA",
+        "content": "Onyx Smart Home serves Issaquah's blend of mountain foothill properties and planned communities with tailored automation solutions. We excel at integrating smart technology with the area's natural surroundings, offering systems like wildlife cameras and trail lighting. Issaquah's wet winters make our smart home weather stations and flood prevention systems essential.\n\nFrom historic downtown homes to new developments near the highlands, we create systems that respect the environment while providing modern convenience. Our energy monitoring solutions are particularly valued in these eco-conscious communities.",
+        "localContext": "Issaquah combines small-town charm with access to outdoor recreation and tech industry jobs.",
+        "nearbyAreas": [
+          "Sammamish",
+          "Bellevue",
+          "Preston"
+        ]
+      },
+      {
+        "city": "Woodinville",
+        "slug": "woodinville-wa",
+        "state": "WA",
+        "content": "Onyx Smart Home enhances Wine Country living in Woodinville with automation solutions for vineyard estates and tasting room owners. We specialize in systems that protect wine collections, manage expansive properties, and create ambiance for entertaining. Woodinville's microclimates make our precision climate control systems valuable for both homes and wine storage areas.\n\nFrom equestrian properties to modern farmhouses, we design smart homes that reflect Woodinville's rural-meets-luxury character. Our outdoor lighting and gate automation are particularly popular in this area.",
+        "localContext": "Woodinville is renowned for its wineries, spacious estates, and country-chic lifestyle.",
+        "nearbyAreas": [
+          "Bothell",
+          "Redmond",
+          "Duvall"
+        ]
+      },
+      {
+        "city": "Mercer Island",
+        "slug": "mercer-island-wa",
+        "state": "WA",
+        "content": "Onyx Smart Home delivers premium automation for Mercer Island's exclusive waterfront and hilltop residences. We understand the unique needs of island living, offering robust security systems, smart ferry alerts, and backup power solutions. Mercer Island's lakeside location makes our smart dock lighting and water monitoring systems particularly important.\n\nFrom mid-century modern homes to contemporary mansions, we design systems that match the island's sophisticated aesthetic. Our whole-home control solutions ensure seamless operation of your property's advanced features.",
+        "localContext": "Mercer Island is an affluent community known for its excellent schools and private waterfront access.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Seattle",
+          "Newcastle"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "whole-home-automation": "/images/service-whole-home-automation.webp",
+      "climate-control-systems": "/images/service-climate-control-systems.webp",
+      "voice-control-integration": "/images/service-voice-control-integration.webp",
+      "smart-lighting-solutions": "/images/service-smart-lighting-solutions.webp",
+      "smart-security-networks": "/images/service-smart-security-networks.webp"
+    },
+    "servicesResponsive": {
+      "whole-home-automation": {
+        "src": "/images/service-whole-home-automation.webp",
+        "srcset": "/images/service-whole-home-automation-400w.webp 400w, /images/service-whole-home-automation-800w.webp 800w, /images/service-whole-home-automation-1200w.webp 1200w, /images/service-whole-home-automation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "climate-control-systems": {
+        "src": "/images/service-climate-control-systems.webp",
+        "srcset": "/images/service-climate-control-systems-400w.webp 400w, /images/service-climate-control-systems-800w.webp 800w, /images/service-climate-control-systems-1200w.webp 1200w, /images/service-climate-control-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "voice-control-integration": {
+        "src": "/images/service-voice-control-integration.webp",
+        "srcset": "/images/service-voice-control-integration-400w.webp 400w, /images/service-voice-control-integration-800w.webp 800w, /images/service-voice-control-integration-1200w.webp 1200w, /images/service-voice-control-integration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-lighting-solutions": {
+        "src": "/images/service-smart-lighting-solutions.webp",
+        "srcset": "/images/service-smart-lighting-solutions-400w.webp 400w, /images/service-smart-lighting-solutions-800w.webp 800w, /images/service-smart-lighting-solutions-1200w.webp 1200w, /images/service-smart-lighting-solutions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-security-networks": {
+        "src": "/images/service-smart-security-networks.webp",
+        "srcset": "/images/service-smart-security-networks-400w.webp 400w, /images/service-smart-security-networks-800w.webp 800w, /images/service-smart-security-networks-1200w.webp 1200w, /images/service-smart-security-networks.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
